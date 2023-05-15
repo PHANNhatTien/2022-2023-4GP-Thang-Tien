@@ -14,12 +14,29 @@
   ## 2.2. Intégration Arduino
  > <div class="row" align="center">
  > <img src="image Kicad projet/pcb imprimé.PNG"/>
- > <img src=""/>
+ > </div>
+ 
+**Figure 4 - Design du PCB **
+
+> <div class="row" align="center">
+ > <img src="image Kicad projet/Circuit imprimé.jpg"/>
  > </div>
 
-   ![Figure PCB](image Kicad projet/pcb imprimé.PNG)
+**Figure 5 - Circuit intergré des composants ** 
+
 # 3. Programme Arduino
 # 4. Application mobile
+> Dans le cadre de ce projet, nous avons programmé sur MIT APP INVENTOR, l'application mobile connectée au module Bluetooth du capteur. Cette dernière est constituée d'une seule activité sur laquelle il est possible d'acquérir les données du capteur en temps réel et de les tracer sur un graphique dynamique.
+ > <div class="column" align="center">
+ > <img src="" alt="300" width="300"/>
+ > <img src="" alt="300" width="300"/>
+ > </div>
+
+ **Figure 6 - page d'accueil de la dernière version de l'application mobile. Cette capture d'écran a été prise pendant le fonctionnement du capteur.**
+
+ > Pour la connection Bluetooth, le smartphone doit être appareillé au module du capteur avant de pouvoir se connecter via l'application mobile. L'application ne permet pas de choisir à quel module se connecter. En réalité, l'application est liée à un module bluetooth en particulier (celui fourni avec le capteur) et lui seul pourra être connecté au smartphone pour la transmission de données. Une piste d'amélioration consiste à afficher la liste des dispositifs appareillés pour se connecter au module souhaité. Nous n'avons cependant pas pu implémenter cette fonctionnalité par manque de temps.
+
+ > N.B: le fichier .apk de l'application mobile est situé dans le répertoire suivant: ....... .
 # 5. Mesures : Banc de test, datasheet et discussions
   ## 5.1. Banc de test
   ## 5.2. Mesures et résultats
