@@ -70,7 +70,7 @@
 # 4. Application mobile
 > Dans le cadre de ce projet, nous avons programmé sur MIT APP INVENTOR, l'application mobile connectée au module Bluetooth du capteur. Cette dernière est constituée d'une seule activité sur laquelle il est possible d'acquérir les données du capteur en temps réel et de les tracer sur un graphique dynamique.
  > <div class="column" align="center">
- > <img src="" alt="300" width="300"/>
+ > <img src="interface.jpg" alt="300" width="300"/>
  > <img src="" alt="300" width="300"/>
  > </div>
 
@@ -81,7 +81,16 @@
  > N.B: le fichier .apk de l'application mobile est situé dans le répertoire suivant: ....... .
 # 5. Mesures : Banc de test, datasheet et discussions
   ## 5.1. Banc de test
+   > <div class="column" align="center">
+ > <img src="image Kicad projet/bancdetest.jpg" >
+ > </div>
+  Nous utilisons ce banc de test composé de 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pas de 0,5 cm. Nous posons le capteur sur chacun des cylindres et appliquons donc une déformation sur celui-ci. Cette déformation se retrouve avec la formule ci-dessous :
+            $$\epsilon = \frac{e}{2r}$$
+ 
+avec e l’épaisseur du capteur et r le rayon de courbure donc le rayon de chaque demi cylindre. Nous avons réalisé les mesures en compression et en tension pour chacun de nos capteurs.
   ## 5.2. Mesures et résultats
+  On realise la test sur le capteur graphite de HB, 2H sous même tension entrée. 
+  
   ## 5.3. Datasheet
   ## 5.4. Discussions
   
