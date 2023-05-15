@@ -12,6 +12,8 @@
 > Le fonctionnement de notre jauge de contrainte repose sur la variation de la résistance du circuit résistif en fonction de sa déformation. Elle est alimentée par une tension régulée de 5V fournie par une carte Arduino UNO. Le courant circulant dans la jauge est mesuré pour fournir le signal du capteur, qui doit ensuite être amplifié et filtré.
   ## 2.1. Circuit amplificateur
   ## 2.2. Intégration Arduino
+    
+   ![Figure PCB](/image Kicad projet/pcb imprimé.png )
 # 3. Programme Arduino
 # 4. Application mobile
 # 5. Mesures : Banc de test, datasheet et discussions
