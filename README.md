@@ -90,7 +90,9 @@
 avec e l’épaisseur du capteur et r le rayon de courbure donc le rayon de chaque demi cylindre. Nous avons réalisé les mesures en compression et en tension pour chacun de nos capteurs.
   ## 5.2. Mesures et résultats
   On realise la test sur le capteur graphite de HB, 2H sous même tension entrée. 
-  
+    > <div class="column" align="center">
+ > <img src="Variation de résistance en fonction de la deformation.png" >
+ > </div>
   ## 5.3. Datasheet
   ## 5.4. Discussions
   
